@@ -9,6 +9,32 @@ kerja. Dibangun dengan **React + TypeScript + Vite**, seluruh data disimpan di
 
 ---
 
+## Tampilan Aplikasi
+
+### Gantt Chart
+
+![Gantt Chart](docs/screenshots/gantt.png.png)
+
+Grafik Gantt berisi bar tugas berwarna, panah dependensi, penanda "hari ini", serta
+shading akhir pekan dan hari libur. Bar dapat ditarik untuk menggeser jadwal maupun
+mengubah durasi.
+
+### Sumber Daya
+
+![Sumber Daya](docs/screenshots/tim.png.png)
+
+Tab Sumber Daya menampilkan anggota tim beserta peran, tarif harian, beban kerja, dan
+biaya, lengkap dengan kartu tugas yang dipegang masing-masing anggota.
+
+### Analisis
+
+![Analisis](docs/screenshots/analisis.png.png)
+
+Tab Analisis memperlihatkan jalur kritis, diagram jaringan PERT, dan tabel CPM (ES, EF,
+LS, LF, total float, status kritis) beserta estimasi PERT tiap tugas.
+
+---
+
 ## Daftar isi
 
 - [Fitur](#fitur)
